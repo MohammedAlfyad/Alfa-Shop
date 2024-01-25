@@ -1,0 +1,23 @@
+.addProduct {
+    background-color: lightseagreen;
+    width: 85%;
+    height: 100%;
+    margin: 20px auto;
+    padding: 50px;
+    /* background: repeating-linear-gradient(45deg, #626262, #626262 10px, #394240 10px, #394240 20px); */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.add_title {
+        display: flex;
+        justify-content: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.add_form {
+    padding: 2% 5%;
+}
+
+.edit_btn {
+    width: 20%;
+}
+

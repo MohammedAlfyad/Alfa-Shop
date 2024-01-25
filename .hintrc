@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "meta[name=theme-color]"
+        ]
+      }
+    ],
+    "manifest-file-extension": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "background-clip",
+          "-webkit-text-size-adjust",
+          "text-align: -webkit-match-parent",
+          "rotate",
+          "scale",
+          "scroll-behavior"
+        ]
+      }
+    ]
+  }
+}
